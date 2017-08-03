@@ -1,7 +1,7 @@
 @import url(font-awesome.min.css);
 @import url(font-awesome.css);
-@import url(//necolas.github.io/normalize.css/5.0.0/normalize.css);
-@import url(//meyerweb.com/eric/tools/css/reset/reset.css);
+@import url(http://necolas.github.io/normalize.css/5.0.0/normalize.css);
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
 
 
@@ -65,10 +65,10 @@ p {
 .menu li a {
     text-decoration: none;
     text-transform: uppercase;
-    padding: 4rem 1.5rem 2rem 1.5rem;
+    padding: 4rem 1.2rem 2rem 1.2rem;
     color: #fff;
     font-family: 'Roboto';
-    font-size: 1.4rem;
+    font-size: 1.3rem;
 }
 .menu li a:hover {
     background: #dd374d;
