@@ -1,0 +1,541 @@
+@import url(font-awesome.min.css);
+@import url(font-awesome.css);
+@import url(//necolas.github.io/normalize.css/5.0.0/normalize.css);
+@import url(//meyerweb.com/eric/tools/css/reset/reset.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto';
+    height: 100%;
+    width: 100%;
+}
+.wrapper {
+    min-width: 117rem;
+    width: 100%;
+}
+h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 5rem;
+    padding-bottom: 4rem;
+}
+h2 {
+    margin: 0;     
+    color: #333;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+h3 {
+    padding-bottom: 2.5rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+p {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+}
+
+/*---------------------ПЕРВЫЙ БЛОК-----------------------------*/
+.firstBlock {    
+    height: 70rem;
+    background: url("../img/main_bg.png") no-repeat;
+    background-size: cover;
+    background-position: center;        
+    padding: 0;
+}
+.header {
+    width: 117rem;
+    margin: 0 auto;
+    height: 9rem;
+    padding-top: 4rem;
+}
+.menu {
+    list-style:none;
+}
+.menu li {
+    display: inline;
+    margin: 0 1.5rem;    
+}
+.menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 4rem 1.5rem 2rem 1.5rem;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 1.4rem;
+}
+.menu li a:hover {
+    background: #dd374d;
+}
+.mainText {
+    width: 117rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 25rem;
+}
+.mainText p {
+    color: #f9ad18;
+    width: 62rem;
+    margin: 0 auto;
+    line-height: 2rem;
+}
+.arrow {
+    margin: 0 auto;
+    padding-top: 12rem;
+    width: 4.5rem;
+}
+
+/*-------------------БЛОК FUTURE-------------------------------*/
+#invest {
+    width: 117rem;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8rem 0;
+}
+#invest p {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: #363636;    
+}
+#invest p:first-of-type {
+    padding-bottom: 3rem;
+}
+#invest h3 {
+    padding-bottom: 8rem;
+}
+#invest .yellow {
+    color: #f9ad18;
+    font-weight: 400;
+    
+}
+
+/*--------------------БЛОК С ОТЗЫВАМИ------------------------------*/
+#future {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url('../img/future_bg.png');
+    background-size: cover;
+    padding-top: 7.5rem;
+}
+.plusesBlock {
+    width: 117rem;
+    margin: 0 auto;
+    color: #fff;
+    
+}
+.plus {
+    text-align: center;
+    position: relative;
+}
+.plus:last-of-type:before, 
+.plus:last-of-type:after {
+    display: block;
+    position: absolute;
+    content: "";        
+}
+.plus:last-of-type:after {
+    background-color: #fff;
+    left: -150%;
+    top: 120%;
+    width: 83rem;
+    height: 0.1rem;
+}
+.plus:last-of-type:before{    
+    height: 3rem;
+    width: 3rem;
+    background-color: #fff;
+    background: url("../img/fut1.png") no-repeat;
+    background-size: 99%;
+    left: -52%;
+    bottom: -7.5rem;
+    z-index: 20;
+}
+
+.plus h3{
+    font-size: 2.6rem;
+    padding-bottom: 4rem;
+}
+.plus__imgBlock {
+    width: 12rem;
+    height: 12rem;
+    padding: 3.5rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.plus__imgBlock:hover {
+    background: #dd374d;
+    border: 1px solid #dd374d;
+}
+.plus__imgBlock img {
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.slider {
+    padding-bottom: 8rem;
+}
+.carousel{
+    margin-top: 9.5rem;
+}
+.quotes {
+    margin: 0 auto;
+    padding-bottom: 6rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+p.comment,
+p.author,
+p.authorJob {
+    color:#fff;    
+    line-height: 2.5rem;
+}
+p.comment {
+    font-size: 1.8rem;
+    font-weight: 300;
+    width: 80rem;
+    margin: 0 auto;
+}
+p.author {
+    font-size: 2rem;
+    margin-top: 6rem;
+}
+p.authorJob {
+    font-size: 1.4rem;
+    padding: 1.5rem 0 5rem 0;
+}
+.item{
+    text-align: center;
+    height: 32rem !important;
+}
+.slider .carousel-indicators li {
+    border: 1px solid #dd374d;
+    border-right: 1rem; 
+}
+.slider .carousel-indicators .active {
+    background-color: #dd374d;
+}
+
+/*----------------------БЛОК WHAT WE DO----------------------------*/
+#servises {
+    width: 117rem;
+    margin: 0 auto;
+}
+#servises {
+    padding: 5rem 0 7.5rem 0;
+}
+.wedo li {
+    border: 0.1rem solid #d3d3d3;
+    border-radius: 0;
+    padding: 1.5rem 7rem;
+}
+.wedo>.nav-tabs>li>a {    
+     font-family: 'Roboto';
+     font-size: 1.6rem;
+     font-weight: 300;
+     color: #868585;
+     padding: 0;
+}
+.wedo>.nav-tabs>li.active>a {
+     border: 0;
+}
+.wedo>.nav-tabs>li.active {
+    border-top: 0.1rem solid #dd374d;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;    
+    border-radius: 0;
+}
+.wedo>.nav-tabs>li:first-of-type.active {
+    border-left: 0.1rem solid #d3d3d3;
+}
+.wedo>.nav-tabs>li:last-of-type.active {
+    border-right: 0.1rem solid #d3d3d3;
+}
+.wedo>.tab-content>.tab-pane {
+    border: 0.1rem solid #d3d3d3;
+    border-top: 0;
+    padding: 3rem 1.5rem 0 1.5rem;
+}
+.design--info {
+    text-align: center;
+}
+.design--info .imgBlock {
+    margin: 0 auto;
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+    width: 10.4rem;
+    height: 10.4rem;
+    padding: 3rem;
+    border: 0.1rem solid #eeeeee;
+    border-radius: 50%;
+    background: #eeeeee;
+}
+.design--info .imgBlock:hover {    
+    border: 0.1rem solid #dd374d;
+    background: #dd374d;
+}
+.design--info img {
+    width: 4.4rem;
+    height: 4.4rem;   
+}
+.design--info .imgBlock:hover img {
+    filter: brightness(10);
+    -webkit-filter: brightness(10);
+}
+
+#design p, 
+.specialization>p.specialization__text {
+    color: #868585;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2rem;
+}
+.specialization>p.specialization__text {
+    padding-bottom: 5rem;
+}
+.design--info h3 {
+    text-transform: none;
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #474747;
+}
+.specialization p {
+    display: inline-block;
+    width: 100%;   
+    color: #363636; 
+    font-weight: 500;
+}
+.specialization p span{
+    display: block;
+    float: right;  
+}
+.progress {
+    height: 0.4rem;
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+}
+
+/*----------------------БЛОК ПОРТФОЛИО----------------------------*/
+#portfolio {
+    width: 117rem;
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
+}
+.portfolio__textBlock {
+    text-align: center;
+    background: #f4f4f4;
+    padding: 9rem 0;
+    position: relative;
+}
+.portfolio__textBlock p {
+    padding-top: 3rem;
+    color: #8a8a8a; 
+}
+.portfolio__textBlock h3 {
+    padding-bottom: 3rem; 
+}
+.portfolio__textBlock h3:after {
+    display: block;
+    position: absolute;
+    content: ""; 
+    background-color: #d8d8d8;
+    left: 25%;
+    top: 16rem;
+    width: 83rem;
+    height: 0.1rem;
+}
+#portfolio__menu {
+    list-style:none;
+    text-align: center;
+    padding: 5rem 0;  
+    position: relative;  
+}
+#portfolio__menu li {
+    display: inline;
+    margin: 0 1.5rem;    
+}
+#portfolio__menu  li a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-size: 1.4rem;
+    color: #555555;
+    cursor: pointer;
+}
+#portfolio__menu li a:hover {
+    color: #dd374d;
+    text-decoration: underline;    
+}
+
+.gallery__work {
+    padding: 0.5rem;
+    position: relative;
+    overflow: hidden;
+}
+.gallery__work img {
+    width: 100%;
+    height: 100%;
+}
+.work__title {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s; 
+    padding-top: 35%;
+}
+.work__title h4 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+.work__title p {
+    font-size: 1.5rem;
+    margin: 1.5rem 0px;
+    text-align: center;
+    font-style: italic;
+    padding: 0px 1rem;
+}
+.gallery__work:hover .work__title {
+    top: 0px;
+}
+
+/*-----------------------БЛОК КОМАНДА---------------------------*/
+.statement {
+    padding: 11.5rem 0;
+    text-align: center;
+}
+.statement__imgBlock {
+    padding-bottom: 2rem;
+}
+.statement__imgBlock img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+.statement__textBlock h3 {
+    text-transform: none;
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 300;   
+    color: #dd374d;
+    padding-bottom: 2rem;
+}
+.statement__textBlock>div {
+    font-weight: 900;
+    font-size: 6rem;
+    color: #8a8a8a;
+}
+
+/*--------------------БЛОК КОНТАКТОВ------------------------------*/
+#contact {
+    max-width: 100%;
+    margin-left: 0;
+}
+.contact__textBlock {
+    width: 100%;
+    padding: 9rem 0;
+    background: #dd374d;
+    text-align: center;
+    color: #fff;   
+}
+.contact__textBlock h3{
+    font-weight: 500;
+}
+.contact__textBlock p{
+    padding-top: 3rem;
+}
+.contact__textBlock__title {
+    width: 80%;
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+}
+.contact__textBlock__title::before, 
+.contact__textBlock__title::after {
+    display: block;
+    position: absolute;
+    content: "";        
+}
+.contact__textBlock__title::before{    
+    background-color: #fff;
+    left: 0;
+    bottom: 0;
+    width: 99%;
+    height: 0.1rem;
+}
+.contact__textBlock__title::after{
+    height: 4rem;
+    width: 4rem;
+    background-color: #fff;
+    background: url("../img/arrow-down1.png") no-repeat;
+    background-size: 99%;
+    left: 49%;
+    bottom: -2rem;
+}
+.contact__textBlock__mapIcon{
+    display: block;
+    position: absolute;
+    bottom: -4.4rem;
+    left: 48%;
+    z-index: 2000;
+    background: #dd374d;
+    border: 0.5rem solid #ffffff;
+    border-radius: 50%;
+    width: 8.8rem;
+    height: 8.8rem;
+}
+.contact__textBlock__mapIcon .fa {
+    line-height: 8rem;
+    font-size: 3.5rem; 
+}
+
+#map {
+    height: 43rem;
+    width: 100%; 
+    position: relative;
+}
+[class*="ymaps-2"][class*="-ground-pane"] {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    /* Firefox 3.5+ */
+    -webkit-filter: grayscale(100%);
+}
+
+/*-------------------ПОДВАЛ-------------------------------*/
+footer{
+    padding: 3.5rem 0;
+    background: #434343;
+    color: #fff;        
+    line-height: 1.5rem;
+    text-align: center;
+}
+footer p {
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+.footer__icons {
+    margin: 0 auto;
+}
+.footer__icons .fa{ 
+    margin: 0 2.5rem 1.5rem 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #fff;
+    border-radius: 70%;
+    font-size: 1rem;
+    line-height: 2.5rem;
+}
+.footer__icons .fa:hover{
+    background: #fff;
+    color: #434343;
+}
